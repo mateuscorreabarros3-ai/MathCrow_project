@@ -107,7 +107,7 @@ function exponencial(){
 
     Neste exemplo, como a base 2 é maior que 1, trata-se de uma função crescente, cujo gráfico intercepta o eixo y exatamente no ponto 0, 1.</p> 
 
-    <img src='../img/grafic1.png'> <p> São exemplos clássicos de leis de funções exponenciais decrescentes: <br>
+    <img src='grafic1.png'> <p> São exemplos clássicos de leis de funções exponenciais decrescentes: <br>
 
     * f(x) = (1/2)X <br>
     * f(x) = (0,8)X<br> <br>
@@ -119,7 +119,7 @@ function exponencial(){
     * x = 1 y = (1/2)1 = 1/2    y = 0,5<br>
     * x = 2 y = (1/2)2 = 1/4    y = 0,25<br>
     * x = 3 y = (1/2)3 = 1/8    y = 0,125<br><br></p> 
-    * <img src='../img/grafic2.png'>`;
+    * <img src='grafic2.png'>`;
     
     tituMud.textContent = "Exponencial";
     
@@ -275,12 +275,12 @@ function logaritmo(){
     Exemplo:<br>
     <strong>f(x) = log₂x</strong><br><br></p>
 
-    <img src="../img/tabelaLog.jpeg">
+    <img src="tabelaLog.jpeg">
     
     <p><br><br>Agora que temos os pontos, é possível construirmos o gráfico.<br>
     Note que a base é maior que 1, logo, o gráfico será crescente<br><br></p>
 
-    <img src="../img/graficLog1.jpeg">
+    <img src="graficLog1.jpeg">
     
     
     <h3><br><br><strong>•	Função decrescente</strong></h3>
@@ -288,13 +288,13 @@ function logaritmo(){
     Exemplo:<br>
     <strong>f(x) = log<sub>½</sub>x</strong><br><br></p>
 
-    <img src="../img/tabelaLog2.jpeg"> 
+    <img src="tabelaLog2.jpeg"> 
     
     
     <p><br><br>Agora que temos os pontos, é possível construirmos o gráfico.<br>
     Note que a base é menor que 1, logo, ele será decrescente.<br><br></p>
 
-    <img src="../img/graficLog2.jpeg">
+    <img src="graficLog2.jpeg">
     `;
     
 
@@ -439,15 +439,15 @@ function matrizes(){
     </div>`;
 
     exempMud.innerHTML = `<h3>Multiplicação<br></h3>
-    <img src="../img/multiMatrizes.jpeg" class="imgMatr">
+    <img src="multiMatrizes.jpeg" class="imgMatr">
 
     <h3><br><br>Determinante de matriz 2 x 2<br></h3>
 
-    <img src="../img/dete2x2.jpeg" class="imgMatr">
+    <img src="dete2x2.jpeg" class="imgMatr">
 
     <h3><br><br>Determinante de matriz 3 x 3<br></h3>
 
-    <img src="../img/deter3x3.jpeg" class="imgMatr">
+    <img src="deter3x3.jpeg" class="imgMatr">
     
     `
 
